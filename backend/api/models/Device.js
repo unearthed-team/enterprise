@@ -8,14 +8,12 @@
 module.exports = {
 
   attributes: {
-    location: {
-      geojson: 'json'
-    },
+    location: 'json',
     tag: 'text',
-    geozone: {
-      collection: 'geozone',
-      via: 'id'
+    active: 'boolean',
+    zone: {
+      collection: 'zone',
+      via: 'device'
     }
   }
 };
-

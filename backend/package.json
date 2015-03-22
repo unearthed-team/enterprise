@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "geomantix-server",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "Server for enterprise management of the Geomantix Unearthed project.",
   "keywords": [],
   "dependencies": {
     "sails": "~0.11.0",
